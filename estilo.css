@@ -10,7 +10,7 @@
 }
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to right ,#204473,#607EA6,#ACCAF2,#D0ECF2,#7E8C69);
+    background-image: linear-gradient(to right ,#ACCAF2,#D0ECF2);
 }
 header{
     
@@ -18,11 +18,20 @@ header{
     text-align: center;
     padding-top: 40px
 }
+header{
+    background-image: linear-gradient(to bottom ,#204473,#607EA6);
+    padding-top: 40px
+}
 
 header  h1 {
+   
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.664);
+    color: white;
      font-size: 2em;
     text-align: center;
     text-transform: capitalize
+      
     
 }
 main{
@@ -31,7 +40,7 @@ main{
     max-width: 800px;
     margin: auto;
     padding: 10px;
-    border-radius: 10px 10px 0px 0px ;
+   
     
  
 }
@@ -50,6 +59,8 @@ main #principal{
     margin: 10px;
     text-align: justify;
     text-indent: 20px;
+} main h2{
+    font-size: 1.3em;
 }
 article{
     padding-bottom: 40px;
