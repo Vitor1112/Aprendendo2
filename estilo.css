@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    font-family: 'Sriracha', sans-serif;;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    box-sizing: border-box
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right ,#204473,#607EA6,#ACCAF2,#D0ECF2,#7E8C69);
+}
+header{
+    
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px
+}
+
+header  h1 {
+     font-size: 2em;
+    text-align: center;
+    text-transform: capitalize
+    
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px ;
+    
+ 
+}
+main #principal{
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 20px;
+   }
+   section h2 {
+    padding: 20x;
+   }
+section>p {
+    padding-bottom: 2em;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+article{
+    padding-bottom: 20px;
+}
+
+/*Parte do pé */
+footer{
+    background-color: black;
+   
+    color: white;
+    padding-top: 40px;
+   
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+.carousel {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+div#video{
+    
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div#video > iframe{
+    position:absolute ;
+    top: 5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+
+}
